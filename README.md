@@ -2,8 +2,23 @@
 
 ## Current Role:
 
-GitHub 
-Security Analyst
+### GitHub 
+
+**GRC Security Analyst**
+
+GRC-Audit and Compliance is a product-centric audit and continuous testing function that exists to fulfill the company’s audit obligations to customers and external stakeholders while providing leadership with insights into GitHub’s audit and control posture. We will add further value to GitHub’s go-to-market strategy by marketing customer-facing assurance reports as product features. Currently we manage the following audit work across GitHub:
+
+  - SOC 1, SOC 2 for GHEC
+  - FedRAMP Low Tailored for GHEC
+  - PCI DSS for GHEC
+  - MSFT Non-financial disclosures (internal MSFT requirements) for GitHub’s NFD metrics (Developers, MAC, MEU)
+  - MSFT internal audits at GitHub (e.g. Security Governance, Trade Compliance, etc)
+  - GHAE compliance and risk management
+  - Azure DevOps (ADO) compliance, privacy, and risk programs
+
+Learn more about Audit & Compliance programs and services over in https://www.github/security-grc-compliance
+
+
 
 ## Historic Experience: 
 
