@@ -24,6 +24,18 @@ Security Analyst
   - Assess the design and implementation of ITGC requirements against company policies and procedures
   - Inspected control evidence for adherence to completeness, accuracy and precision of control execution for ITGC
 
+### RSM US LLP	(Miami, FL)
+
+#### Risk Advisory Services
+  - Executed UNIX, Windows, AS/400 (iSeries), and Oracle database general computer control reviews
+  - Reviewed, evaluated and tested application controls, particularly automated controls on a wide range of software application packages used for financial reporting
+  - Evaluated and improved the effectiveness and efficiency of operations for clients
+  - Assisted clients in the review over the design, build, and operation of business processes
+  - Analyzed and assessed the security environment for clients by conducting cyber security risk assessments and audits
+  - Assisted financial audit and Sarbanes-Oxley compliance teams in the identification of control objectives and the design of control procedures to address those objectives
+  - Determined technical and business impact of identified security and control issues and provide remediation guidance to clients
+  - Executed and oversaw IT Audit SharePoint document knowledge repository, increasing employee productivity
+
 ## Certifications: 
 
 |   |   |
@@ -37,11 +49,11 @@ Security Analyst
 
 ## Hobbies:
 
-  - Exotic Plants
-  - 4 Wheeling 
-  - Hiking 
-  - Travelling
-  - My puppy children
+  - Exotic Plants 🌴
+  - 4 Wheeling 🚴‍♂️
+  - Hiking 🥾
+  - Travelling ✈️
+  - My children aka 🐕 🐕
 
 ## Social Media: 
 
