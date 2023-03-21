@@ -72,7 +72,7 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
   - 4 Wheeling 🚴‍♂️
   - Hiking 🥾
   - Travelling ✈️
-  - My children aka 🐕 🐕
+  - My children aka 🐕🐕🐕
 
 ## Social Media: 
 
