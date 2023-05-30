@@ -60,7 +60,6 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
 |   |   |
 |---|---|
 |**License/Certification**|**Date Effective**|
-|Certified in Risk and Information Systems Control, ISACA	| Currently Pursuing |
 |Certified Information Systems Auditor, ISACA	|	December 2018 |
 |Information Security Management Systems v2.1, BSI | June 2017 |
 |Management Systems Auditing v2.0,BSI	| June 2017 |
