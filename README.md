@@ -23,7 +23,7 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
 
 ### GitHub 
 
-#### GRC Security Analyst **Remote, USA**
+#### GRC Security Analyst  (Remote, USA)
 -	Maintain productive customer partnerships, turning around difficult relationships (particularly with people not traditionally used to interacting with Internal Audit)
 - Reviews audit project plans, work papers and audit reports, including discussing issues with management, and ensuring adequate quality control is in operation. Follows up on replies to reports, reviews replies and posts audit reviews.
 -	Oversee the planning, scheduling and execution of IT audits within established time budgets and deadlines, ensuring all activities conform to established departmental procedures. Supervise and review the work of audit staff and identify areas of needed improvement and assists staff in development. Prepares executive summary and submits audit findings/recommendations to executive management. 
@@ -33,7 +33,7 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
 
 ## Historic Experience: 
 
-### UKG **Weston, FL**
+### UKG  (Weston, FL)
 
 #### SR IT Control Analyst
   - Design, implement, and test controls to comply with ISO 27001, ISO 27018, AICPA, and NIST control requirements
@@ -64,7 +64,6 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
 
 ## Certifications: 
 
-|   |   |
 |---|---|
 |**License/Certification**|**Date Effective**|
 |Certified Information Systems Auditor, ISACA	|	December 2018 |
