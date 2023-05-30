@@ -4,13 +4,9 @@
 
 [![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=12133048755&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
 
-## Current Role:
+## GRCC Department
 
-### GitHub 
-
-**GRC Security Analyst**
-
-GRC-Audit and Compliance is a product-centric audit and continuous testing function that exists to fulfill the company’s audit obligations to customers and external stakeholders while providing leadership with insights into GitHub’s audit and control posture. We will add further value to GitHub’s go-to-market strategy by marketing customer-facing assurance reports as product features. Currently we manage the following audit work across GitHub:
+GRC Audit and Compliance is a product-centric audit and continuous testing function that exists to fulfill the company’s audit obligations to customers and external stakeholders while providing leadership with insights into GitHub’s audit and control posture. We will add further value to GitHub’s go-to-market strategy by marketing customer-facing assurance reports as product features. Currently we manage the following audit work across GitHub:
 
   - SOC 1, SOC 2, and SOC 3 for GHEC and Actions 
   - ISO 27001, 27018, and 27701 for GHEC and Actions
@@ -23,6 +19,16 @@ GRC-Audit and Compliance is a product-centric audit and continuous testing funct
 
 Learn more about Audit & Compliance programs and services over in https://www.github/security-grc-compliance
 
+## Current Role:
+
+### GitHub 
+
+#### GRC Security Analyst **Remote, USA**
+-	Maintain productive customer partnerships, turning around difficult relationships (particularly with people not traditionally used to interacting with Internal Audit)
+- Reviews audit project plans, work papers and audit reports, including discussing issues with management, and ensuring adequate quality control is in operation. Follows up on replies to reports, reviews replies and posts audit reviews.
+-	Oversee the planning, scheduling and execution of IT audits within established time budgets and deadlines, ensuring all activities conform to established departmental procedures. Supervise and review the work of audit staff and identify areas of needed improvement and assists staff in development. Prepares executive summary and submits audit findings/recommendations to executive management. 
+- Identify and assess complex risks (both business and technological) and to provide advice to management regarding mitigation of these risks.
+-	Manage and train staff in the execution of the IT audit and compliance activities. For the assigned staff, assign work, monitor progress, and provide coaching feedback on a regular basis. Prepare and deliver formal Semester Progress Review(s), as well as Annual Review(s). 
 
 
 ## Historic Experience: 
