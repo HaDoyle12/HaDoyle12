@@ -64,6 +64,7 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
 
 ## Certifications: 
 
+| | |
 |---|---|
 |**License/Certification**|**Date Effective**|
 |Certified Information Systems Auditor, ISACA	|	December 2018 |
