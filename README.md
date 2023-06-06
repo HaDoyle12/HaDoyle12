@@ -72,6 +72,10 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
 |Management Systems Auditing v2.0,BSI	| June 2017 |
 |ISO/IEC 27001:2013 Internal Auditor, BSI	| June 2017 |
 
+## Other Projects Worth Noting
+- IT Design and Consulting for Standing Stone Nursery
+- Intake and review of GitHub Bugs identified in Hackerone. 
+
 ## Hobbies:
 
   - Exotic Plants 🌴
