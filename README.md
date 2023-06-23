@@ -1,8 +1,5 @@
 # Hunter Doyle 
 
-### See what I am listening to: 
-
-[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=12133048755&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
 
 ## GRCC Department
 
@@ -64,9 +61,10 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
 
 ## Certifications: 
 
-| | |
-|---|---|
+
+
 |**License/Certification**|**Date Effective**|
+|---|---|
 |Certified Information Systems Auditor, ISACA	|	December 2018 |
 |Information Security Management Systems v2.1, BSI | June 2017 |
 |Management Systems Auditing v2.0,BSI	| June 2017 |
@@ -89,6 +87,11 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
 - https://www.linkedin.com/in/hunter-doyle-67a18389/
 - https://www.github.slack.com/HaDoyle12
 - https://www.instagram.com/doyle_h13/
+
+### See what I am listening to: 
+
+[![spotify-github-profile](https://spotify-github-profile.vercel.app/api/view?uid=12133048755&cover_image=true&theme=novatorem&bar_color=53b14f&bar_color_cover=false)](https://github.com/kittinan/spotify-github-profile)
+
 
 
 <!---
