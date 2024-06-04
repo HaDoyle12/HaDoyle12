@@ -87,6 +87,7 @@ Learn more about Audit & Compliance programs and services over in https://www.gi
 - https://www.linkedin.com/in/hunter-doyle-67a18389/
 - https://www.github.slack.com/HaDoyle12
 - https://www.instagram.com/doyle_h13/
+- https://mentorship.isaca.org/p/p1/members/12242541
 
 
 <!---
