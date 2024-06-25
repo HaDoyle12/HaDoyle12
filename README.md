@@ -6,7 +6,7 @@
 GRC Audit and Compliance is a product-centric audit and continuous testing function that exists to fulfill the company’s audit obligations to customers and external stakeholders while providing leadership with insights into GitHub’s audit and control posture. We will add further value to GitHub’s go-to-market strategy by marketing customer-facing assurance reports as product features. Currently we manage the following audit work across GitHub:
 
   - SOC 1, SOC 2, and SOC 3 for GHEC and Actions 
-  - ISO 27001, 27018, and 27701 for GHEC and Actions
+  - ISO 27001 for GHEC and Actions
   - FedRAMP Low Tailored for GHEC
   - PCI DSS for GHEC
   - MSFT Non-financial disclosures (internal MSFT requirements) for GitHub’s NFD metrics (Developers, MAC, MEU)
