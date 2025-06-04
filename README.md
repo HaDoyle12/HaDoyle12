@@ -91,12 +91,12 @@ Future Compliance State:
 - Implement optimized, risk-reducing controls.
 - Identify and assess complex business and technology risks; advise management on mitigation.  
  
-### #**Issues Tracking and Resolution**
-•	Manage operational processes that monitor and respond to security threats.
-•	Partner with IT to mature operational controls.
-•	Lead follow-up education for policy-violating or risky behaviors.
-•	Oversaw assessment of controls and ensured deficiencies are addressed.
-•	Integrate issue management programs into the GRC framework.
+#### **Issues Tracking and Resolution**
+- Manage operational processes that monitor and respond to security threats.
+- Partner with IT to mature operational controls.
+- Lead follow-up education for policy-violating or risky behaviors.
+- Oversaw assessment of controls and ensured deficiencies are addressed.
+- Integrate issue management programs into the GRC framework.
  
 #### **Execution**
 - Round on leadership to influence decisions and educate on risk.
