@@ -204,5 +204,4 @@ Future Compliance State:
 
 - [LinkedIn](https://www.linkedin.com/in/hunter-doyle-67a18389/)  
 - Slack: @HaDoyle12  
-- [Instagram](https://www.instagram.com/doyle_h13/)  
-- [ISACA Mentorship](https://mentorship.isaca.org/p/p1/members/12242541)  
+
