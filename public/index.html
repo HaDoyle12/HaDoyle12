@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRC Tracker - Governance, Risk & Compliance</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1><i class="fas fa-shield-alt"></i> GRC Tracker</h1>
+                <p>Governance, Risk & Compliance Management System</p>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <button class="nav-btn active" data-section="dashboard">
+                <i class="fas fa-tachometer-alt"></i> Dashboard
+            </button>
+            <button class="nav-btn" data-section="grc-items">
+                <i class="fas fa-clipboard-list"></i> GRC Items
+            </button>
+            <button class="nav-btn" data-section="evidence">
+                <i class="fas fa-folder-open"></i> Evidence
+            </button>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Dashboard Section -->
+            <section id="dashboard" class="section active">
+                <h2>Dashboard</h2>
+                <div class="dashboard-stats">
+                    <div class="stat-card">
+                        <i class="fas fa-clipboard-list"></i>
+                        <div class="stat-info">
+                            <span class="stat-number" id="total-items">0</span>
+                            <span class="stat-label">Total Items</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-folder"></i>
+                        <div class="stat-info">
+                            <span class="stat-number" id="total-evidence">0</span>
+                            <span class="stat-label">Evidence Files</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-check-circle"></i>
+                        <div class="stat-info">
+                            <span class="stat-number" id="completed-items">0</span>
+                            <span class="stat-label">Completed</span>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-exclamation-triangle"></i>
+                        <div class="stat-info">
+                            <span class="stat-number" id="pending-items">0</span>
+                            <span class="stat-label">Pending</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="dashboard-charts">
+                    <div class="chart-container">
+                        <h3>Items by Status</h3>
+                        <div id="status-chart" class="chart"></div>
+                    </div>
+                    <div class="chart-container">
+                        <h3>Items by Framework</h3>
+                        <div id="framework-chart" class="chart"></div>
+                    </div>
+                </div>
+
+                <div class="recent-items">
+                    <h3>Recent Activity</h3>
+                    <div id="recent-items-list" class="items-list"></div>
+                </div>
+            </section>
+
+            <!-- GRC Items Section -->
+            <section id="grc-items" class="section">
+                <div class="section-header">
+                    <h2>GRC Items</h2>
+                    <button id="add-item-btn" class="btn btn-primary">
+                        <i class="fas fa-plus"></i> Add Item
+                    </button>
+                </div>
+
+                <div class="filters">
+                    <input type="text" id="search-items" placeholder="Search items..." class="search-input">
+                    <select id="filter-status" class="filter-select">
+                        <option value="">All Statuses</option>
+                        <option value="Not Started">Not Started</option>
+                        <option value="In Progress">In Progress</option>
+                        <option value="Under Review">Under Review</option>
+                        <option value="Completed">Completed</option>
+                    </select>
+                    <select id="filter-category" class="filter-select">
+                        <option value="">All Categories</option>
+                        <option value="Control">Control</option>
+                        <option value="Policy">Policy</option>
+                        <option value="Risk">Risk</option>
+                        <option value="Audit">Audit</option>
+                        <option value="Assessment">Assessment</option>
+                    </select>
+                </div>
+
+                <div id="grc-items-list" class="items-list"></div>
+            </section>
+
+            <!-- Evidence Section -->
+            <section id="evidence" class="section">
+                <div class="section-header">
+                    <h2>Evidence Management</h2>
+                    <button id="add-evidence-btn" class="btn btn-primary">
+                        <i class="fas fa-upload"></i> Upload Evidence
+                    </button>
+                </div>
+
+                <div class="filters">
+                    <input type="text" id="search-evidence" placeholder="Search evidence..." class="search-input">
+                    <select id="filter-evidence-type" class="filter-select">
+                        <option value="">All Types</option>
+                        <option value="file">File</option>
+                        <option value="url">URL</option>
+                        <option value="note">Note</option>
+                    </select>
+                </div>
+
+                <div id="evidence-list" class="items-list"></div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Modals -->
+    
+    <!-- Add/Edit GRC Item Modal -->
+    <div id="item-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="item-modal-title">Add GRC Item</h3>
+                <button class="close-btn" data-modal="item-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="item-form">
+                <input type="hidden" id="item-id">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="item-title">Title *</label>
+                        <input type="text" id="item-title" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="item-category">Category *</label>
+                        <select id="item-category" required>
+                            <option value="">Select Category</option>
+                            <option value="Control">Control</option>
+                            <option value="Policy">Policy</option>
+                            <option value="Risk">Risk</option>
+                            <option value="Audit">Audit</option>
+                            <option value="Assessment">Assessment</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="item-framework">Framework</label>
+                        <select id="item-framework">
+                            <option value="">Select Framework</option>
+                            <option value="ISO 27001">ISO 27001</option>
+                            <option value="ISO 27018">ISO 27018</option>
+                            <option value="ISO 27701">ISO 27701</option>
+                            <option value="SOC 1">SOC 1</option>
+                            <option value="SOC 2">SOC 2</option>
+                            <option value="SOC 3">SOC 3</option>
+                            <option value="FedRAMP">FedRAMP</option>
+                            <option value="PCI DSS">PCI DSS</option>
+                            <option value="NIST 800-53">NIST 800-53</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="item-status">Status</label>
+                        <select id="item-status">
+                            <option value="Not Started">Not Started</option>
+                            <option value="In Progress">In Progress</option>
+                            <option value="Under Review">Under Review</option>
+                            <option value="Completed">Completed</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="item-priority">Priority</label>
+                        <select id="item-priority">
+                            <option value="Low">Low</option>
+                            <option value="Medium">Medium</option>
+                            <option value="High">High</option>
+                            <option value="Critical">Critical</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="item-due-date">Due Date</label>
+                        <input type="date" id="item-due-date">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="item-assigned-to">Assigned To</label>
+                    <input type="text" id="item-assigned-to" placeholder="Enter name or email">
+                </div>
+                <div class="form-group">
+                    <label for="item-description">Description</label>
+                    <textarea id="item-description" rows="4" placeholder="Enter detailed description..."></textarea>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary close-btn" data-modal="item-modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Item</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Add Evidence Modal -->
+    <div id="evidence-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Upload Evidence</h3>
+                <button class="close-btn" data-modal="evidence-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <form id="evidence-form" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="evidence-grc-item">GRC Item *</label>
+                    <select id="evidence-grc-item" required>
+                        <option value="">Select GRC Item</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="evidence-title">Title *</label>
+                    <input type="text" id="evidence-title" required placeholder="Evidence title">
+                </div>
+                <div class="form-group">
+                    <label for="evidence-type">Type</label>
+                    <select id="evidence-type" onchange="toggleEvidenceFields()">
+                        <option value="file">File Upload</option>
+                        <option value="url">URL/Link</option>
+                        <option value="note">Text Note</option>
+                    </select>
+                </div>
+                <div class="form-group" id="file-upload-group">
+                    <label for="evidence-file">File</label>
+                    <input type="file" id="evidence-file">
+                </div>
+                <div class="form-group" id="url-input-group" style="display: none;">
+                    <label for="evidence-url">URL</label>
+                    <input type="url" id="evidence-url" placeholder="https://example.com">
+                </div>
+                <div class="form-group">
+                    <label for="evidence-description">Description</label>
+                    <textarea id="evidence-description" rows="3" placeholder="Brief description of the evidence..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="evidence-notes">Notes</label>
+                    <textarea id="evidence-notes" rows="3" placeholder="Additional notes or observations..."></textarea>
+                </div>
+                <div class="modal-actions">
+                    <button type="button" class="btn btn-secondary close-btn" data-modal="evidence-modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Upload Evidence</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Item Details Modal -->
+    <div id="item-details-modal" class="modal">
+        <div class="modal-content modal-large">
+            <div class="modal-header">
+                <h3 id="item-details-title">Item Details</h3>
+                <button class="close-btn" data-modal="item-details-modal">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div id="item-details-content"></div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
