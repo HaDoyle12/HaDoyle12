@@ -192,9 +192,11 @@ Future Compliance State:
 ## Hobbies  
 
 - Exotic plants 🌴  
-- 4‑wheeling 🚙  
+- Gardening 🌱  
 - Hiking 🥾  
 - Travel ✈️  
+- Reading 📚  
+- Cooking & Baking 🍳  
 - Time with the dogs 🐕🐕🐕  
 
 ---
