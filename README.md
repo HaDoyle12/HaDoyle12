@@ -14,10 +14,9 @@ Current audit scope:
 - **PCI DSS** – GHEC  
 - **Microsoft non‑financial disclosures** – GitHub NFD metrics (Developers, MAC, MEU)  
 - **Microsoft internal audits** – Security Governance, Trade Compliance, and others  
-- **GHAE** – compliance and risk management  
 - **Azure DevOps** – compliance, privacy, and risk programs  
 
-Learn more in the [Security GRC Compliance repo](https://www.github/security-grc-compliance).  
+Learn more in the [Security GRC Compliance repo](https://github.com/github/security-grc-compliance).  
 
 Future Compliance State:
 - **ISO 27018**
@@ -59,7 +58,7 @@ Future Compliance State:
 #### **Leadership and Collaboration**
 - Work closely with cross-functional teams, including legal, compliance, IT, and operations, to align governance initiatives with business objectives.
 - Act as a governance advisor to leadership, providing expert guidance on best practices and emerging trends.
-- 9+ years of related experience, with at least 4+ years of hands-on leadership experience in the Technology Governance Risk and Compliance field.
+- 10+ years of related experience, with at least 4+ years of hands-on leadership experience in the Technology Governance Risk and Compliance field.
 - Strong leadership skills, strategy, analytical, problem solving, decision-making; and ability to work under minimum direction.
 - Build and expand relationships with key stakeholders.
 - Ability to evangelize and influence company IT compliance and governance efforts.
@@ -84,8 +83,8 @@ Future Compliance State:
 - Collaborate with GitHub leaders for program consistency.
 - Integrate GRC requirements into the risk management framework.
 - Architect and deploy controls for GRC emerging priorities.
-- Drove consistency and visibility of risk activities.
-- Oversaw control assessments and leadership remediation.
+- Drive consistency and visibility of risk activities.
+- Oversee control assessments and leadership remediation.
 - Understanding of frameworks like ISO 27001, ISO 27018, ISO 27701, ISO 42001, ISO 22301, SOC, NIST 800-53 and FedRAMP.
 - Interpret and apply controls from ISO 27001, ISO 27018, ISO 27701, ISO 42001, ISO 22301, SOC, and FedRAMP.
 - Implement optimized, risk-reducing controls.
@@ -95,7 +94,7 @@ Future Compliance State:
 - Manage operational processes that monitor and respond to security threats.
 - Partner with IT to mature operational controls.
 - Lead follow-up education for policy-violating or risky behaviors.
-- Oversaw assessment of controls and ensured deficiencies are addressed.
+- Oversee assessment of controls and ensure deficiencies are addressed.
 - Integrate issue management programs into the GRC framework.
  
 #### **Execution**
@@ -193,9 +192,11 @@ Future Compliance State:
 ## Hobbies  
 
 - Exotic plants 🌴  
-- 4‑wheeling 🚴‍♂️  
+- Gardening 🌱  
 - Hiking 🥾  
 - Travel ✈️  
+- Reading 📚  
+- Cooking & Baking 🍳  
 - Time with the dogs 🐕🐕🐕  
 
 ---
