@@ -203,6 +203,7 @@ Future Compliance State:
 
 ## Social Media  
 
-- [LinkedIn](https://www.linkedin.com/in/hunter-doyle-67a18389/)  
+- [LinkedIn](https://www.linkedin.com/in/hadoyle12/)  
 - Slack: @HaDoyle12  
+
 
